@@ -152,7 +152,7 @@ public class Main {
                             for (String key : clients.keySet()) {
                                 System.out.println("Client name : " + key);
                             }
-                            System.out.println("Enter a client name that you want to add campaign");
+                    System.out.println("Enter a client name");
                             clientName = input.nextLine();
                         } while (!clients.containsKey(clientName));
 
